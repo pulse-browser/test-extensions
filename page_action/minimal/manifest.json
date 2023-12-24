@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/webextension.json",
+  "name": "PageAction - Minimal",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "page_action": {
+    "default_popup": "pageaction.html",
+    "show_matches": ["<all_urls>"]
+  }
+}

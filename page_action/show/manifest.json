@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/webextension.json",
+  "name": "PageAction - Show",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "page_action": {
+    "default_icon": "./flask-line.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

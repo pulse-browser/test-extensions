@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/webextension.json",
+  "name": "PageAction - Hide",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "page_action": {
+    "default_icon": "./flask-line.svg",
+    "show_matches": ["<all_urls>"]
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
